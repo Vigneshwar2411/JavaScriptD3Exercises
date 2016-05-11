@@ -43,7 +43,7 @@ function stacked(){
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-        d3.json("json/literate.json", function(error, data) {
+        d3.json("jsonfinal/literate1.json", function(error, data) {
 
     if (error) throw error;
 
@@ -126,7 +126,7 @@ function grouped(){
           .attr("height", height + margin.top + margin.bottom)
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-  d3.json("json/literateMaleFemale1.json", function(error, data) {
+  d3.json("jsonfinal/literateMaleFemale1.json", function(error, data) {
 
     if (error) throw error;
 

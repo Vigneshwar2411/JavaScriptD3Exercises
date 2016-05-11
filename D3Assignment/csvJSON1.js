@@ -250,8 +250,6 @@ function firstPlot(){
     }
   return obj1;
   }
-console.log(states);
-  // console.log(totalFemales);
   fs.writeFile('jsonfinal/malefemaleratio.json', JSON.stringify(RatioData) , 'utf-8');
   console.log("Male Female Ratio JSON created");
 
@@ -291,7 +289,7 @@ console.log(states);
       }
     return obj1;
     }
-
+console.log(LiterateData);
     fs.writeFile('jsonfinal/literate.json', JSON.stringify(LiterateData) , 'utf-8');
     console.log("Literate and Illiterate JSON created");
 
